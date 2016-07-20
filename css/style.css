@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+}
+.swiper-slide {
+    background: orange;
+}
+.cslcd-slider-box {
+    position: relative;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.box1 {
+    background-image: url(../imgs/bg1.jpg);
+}
+.box2 {
+    background-image: url(../imgs/bg2.jpg);
+}
+.cslcd-img {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    opacity: 0;
+}
+.cslcd-img img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.slider1-img1 {
+    transform: translateY(30%);
+}
+.slider1-img2 {
+    transform: translateY(90%);
+}
+
+.box8 {
+    background-image: url(../imgs/bg2.jpg);
+}
+.box8-h2,
+.box2-h2 {
+    padding-top: 5%;
+    font-size: 2em;
+    padding-bottom: 5%;
+}
+.box8-p,
+.box2-p {
+    padding-top: 5%;
+    font-size: 1em;
+    padding-bottom: 0;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.box2-p {
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+.slider8-img-box {
+    position: relative;
+}
+.slider8-img-box > div {
+    position: absolute;
+    left: 5%;
+}
+@keyframes slider8-rotateClockwise-img {
+  0% {
+    opacity: 0;
+    transform: rotate(-20deg);
+  }
+
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.slider8-rotateClockwise-img3 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:2.2s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img4 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:.2s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img5 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:.4s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img6 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:.6s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img7 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:.8s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img8 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:1.0s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img9 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:1.2s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img10 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:1.4s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img11 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:1.6s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img12 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:1.8s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.slider8-rotateClockwise-img13 {
+  animation-name: slider8-rotateClockwise-img;
+  animation-delay:2.0s;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+}
+.tada-delay {
+    animation-delay:2.4s;
+}
+.box8-p {
+    animation-delay:.5s;
+}
+.box2-box {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+.box2-box ul {
+    list-style: none;
+}
+.box2-box-ul-inside li{
+    float: left;
+    box-sizing: border-box;
+    text-align: left;
+}
+.box2-box-ul-inside img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.box2-box-ul-inside li:first-child {
+    width: 16%;
+    height: 16%;
+    padding: 1%;
+}
+.box2-box-ul-inside li:last-child {
+    width: 84%;
+    height: 16%;
+    padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
